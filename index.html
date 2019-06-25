@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <title>Enterprising Divaz - Official Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta https-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="images/favicon.ico" rel="icon" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7CRoboto:400,300,500,700,900%7CCutive+Mono" rel="stylesheet" type="text/css">
     
@@ -37,6 +37,89 @@
             hashAddressBar: false
         });
     </script>
+    <style>
+ .carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 340px;
+}
+.carousel .item a {
+	color: #eb7245;
+}
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 50px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+.carousel .carousel-control {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+	top: 4px;
+}
+.carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+.carousel-control.right i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border-color: transparent;
+}
+.carousel-indicators li.active {
+	border: none;
+	background: #888;		
+}
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#main-nav" data-offset="60" class="one-page">
@@ -243,34 +326,124 @@
                                 </li>
                             </ul>
                             <h3>
-                                <strong class="counter" data-number="450">0</strong> DiVaz Already. <small><a href="All Divaz.html"> See All DivaZ</a></small>
+                                <!--<strong class="counter" data-number="450">0</strong>-->Our Happy Clients. <small><a href="All Divaz.html"> See All DivaZ</a></small>
                             </h3>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="container">
-                <div class="row content-padding animated">
-                    <div class="col-sm-12 col-md-8 col-md-offset-2">
-                        <div id="disqus_thread"></div>
-                        <script type="text/javascript">
-                            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                            var disqus_shortname = 'curlythemes'; // required: replace example with your forum shortname
-
-                            /* * * DON'T EDIT BELOW THIS LINE * * */
-                            (function() {
-                                var dsq = document.createElement('script');
-                                dsq.type = 'text/javascript';
-                                dsq.async = true;
-                                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                            })();
-                        </script>
-                    </div>
-                </div>
-            </div>
         </section>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!--TESTIMONIALS-->
+    <div id="testimonials" class="container">
+        <h2 style="text-align: center;" >Testimonials</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+	                <!-- Carousel indicators 
+	            <ol class="carousel-indicators">
+		            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		            <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+	            </ol>   
+	            <!-- Wrapper for carousel items -->
+	        <div class="carousel-inner">		
+		        <div class="item carousel-item active">
+			            <p class="testimonial">Blessed to be part of this family..<br>
+                                It's everything what an enterprising female can ask for
+                                </p>
+			        <p class="overview"><b>Dr. Kanika Wadhwa </b></p>
+			            <div class="star-rating">
+				        <ul class="list-inline">
+					    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+					    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+					    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+					    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+					    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+				    </ul>
+		        	    </div>
+                </div>
+                
+		<div class="item carousel-item">
+			<p class="testimonial">Proud to be a part of enterprising divas group </p>
+			<p class="overview"><b> Neelam Parwani</b></p>
+			<div class="star-rating">
+				<ul class="list-inline">
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+				</ul>
+			</div>
+		</div>
+		<div class="item carousel-item">
+			<p class="testimonial">Proud member since 1st season and looking forward to this association for many more year's to come 😊</p>
+			<p class="overview"><b> Rashmi Raghuvanshi</b></p>
+			<div class="star-rating">
+				<ul class="list-inline">
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star"></i></li>
+					<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+				</ul>
+			</div>
+        </div>	
+        <div class="item carousel-item">
+                <p class="testimonial"> Proud to be one of the first members of the group. Its been an awesome experience .<br>Enterprising divas is a great platform for  ladies from versatile backgrounds to come together and showcase their talent and market themselves to the right audience. The best part is this group comprises of women who uplift other women and spread positivity in the group. I'm happy to join it.</p>
+                <p class="overview"><b>Dr. Vandana Verma </b></p>
+                <div class="star-rating">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                    </ul>
+                </div>
+            </div>		
+            <div class="item carousel-item">
+                    <p class="testimonial">  It's my pleasure to a be a member of the group..it's like a family now ...</p>
+                    <p class="overview"><b>Sonia Bhardwaj</b></p>
+                    <div class="star-rating">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                            <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                        </ul>
+                    </div>
+                </div>			
+                <div class="item carousel-item">
+                        <p class="testimonial">A GREAT PLATFORM TO SHOWCASE YOUR EXPERTISE</p>
+                        <p class="overview"><b>Komal Gupta</b></p>
+                        <div class="star-rating">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>			
+	</div>
+	<!-- Carousel controls -->
+	<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+		<i class="fa fa-angle-left"></i>
+	</a>
+	<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+		<i class="fa fa-angle-right"></i>
+	</a>
+</div>
+</div>
+
         <section id="sign-it" class="content-padding-lg animated">
             <div class="container">
                 <div class="row">
@@ -279,19 +452,10 @@
                     </div>
                 </div>
             </div>
-            
-                <div class="row">
-                    <!--<div class="col-sm-5 col-md-3 col-md-offset-2 text-right">
-                        <ul id="sign-list">
-                            <li><a href="#" class="btn btn-block btn-primary facebook"><i class="fa fa-facebook"></i> Sign with Facebook</a></li>
-                            <li><a href="#" class="btn btn-block btn-primary twitter"><i class="fa fa-twitter"></i> Sign with Twitter</a></li>
-                            <li><a href="#" class="btn btn-block btn-primary google"><i class="fa fa-google-plus"></i> Sign with Google</a></li>
-                            <li><a href="#" class="btn btn-block btn-primary linkedin"><i class="fa fa-linkedin"></i> Sign with LinkedIn</a></li>
-                            <li><a href="#" class="btn btn-block btn-primary yahoo"><i class="fa fa-yahoo"></i> Sign with Yahoo</a></li>
-                        </ul>
-                    </div>-->
-                    <div class="col-sm-5 col-sm-offset-2 col-md-3 col-md-offset-2">
-                        <form align="centre" method="post" action="https://demo.curlythemes.com/">
+                
+                <div class="row" >
+                    <div class="col-lg-4 col-lg-offset-4 col-sm-5 col-sm-offset-4 col-md-3 col-md-offset-4">
+                        <form method="post" action="https://demo.curlythemes.com/">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="" value="" placeholder="First & Last Name" />
                             </div>
@@ -305,9 +469,10 @@
                         </form>
                     </div>
                 </div>
-            
         </section>
-    </article>
+     
+        
+</article>
     <footer id="footer" role="contentinfo">
         <div class="container">
             <div class="row" id="absolute-footer">
